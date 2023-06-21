@@ -30,6 +30,10 @@ body {
   margin-bottom: 20px;
 }
 
+#boton1 {
+  margin-top: 198px;
+}
+
 .boton {
   display: block;
   margin-top: 10px;
