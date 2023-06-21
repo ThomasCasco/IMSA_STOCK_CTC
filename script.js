@@ -104,19 +104,19 @@ function mostrarStock() {
 
     var stockVerdeDiv = document.createElement("div");
     stockVerdeDiv.classList.add("stock-indicador", "stock-verde");
-    if (item.stock >= 100) {
+    if (item.stock >= 71) {
       stockVerdeDiv.classList.add("active");
     }
 
     var stockAmarilloDiv = document.createElement("div");
     stockAmarilloDiv.classList.add("stock-indicador", "stock-amarillo");
-    if (item.stock >= 50 && item.stock < 100) {
+    if (item.stock >= 31 && item.stock < 70) {
       stockAmarilloDiv.classList.add("active");
     }
 
     var stockRojoDiv = document.createElement("div");
     stockRojoDiv.classList.add("stock-indicador", "stock-rojo");
-    if (item.stock < 50) {
+    if (item.stock < 30) {
       stockRojoDiv.classList.add("active");
     }
 
