@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Inventario de Papel</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="https://cablesonline.com.ar/wp-content/uploads/2021/02/IMSA_Logo1-01-1-600x338.png" alt="Logo de la empresa">
+    <h1 class="titulo">Inventario de Papel</h1>
+  
+    <div class="formulario">
+      <label for="medida">Medida:</label>
+      <input type="text" id="medida" class="input-text">
+      <button onclick="mostrarTipos()" class="boton">Mostrar Tipos</button>
+    </div>
+  
+    <div id="tipos" class="tipos-disponibles"></div>
+  
+    <div class="formulario">
+      <label for="tipo">Tipo:</label>
+      <select id="tipo" class="select"></select>
+  
+      <label for="cantidad">Cantidad a consumir:</label>
+      <input type="number" id="cantidad" class="input-text">
+      <button onclick="consumirPapel()" class="boton">Consumir</button>
+    </div>
+  
+    <div id="stock" class="stock-container"></div>
+  
+    <h2 class="titulo">Añadir stock</h2>
+  
+    <button onclick="mostrarFormulario()" class="boton">Agregar Stock</button>
+  
+    <div id="formulario" class="formulario-agregar" style="display: none;">
+      <h3>Agregar Stock</h3>
+      <label for="tipo-agregar">Tipo:</label>
+      <input type="text" id="tipo-agregar" class="input-text" autocomplete required>
+      <br>
+      <label for="medida-agregar">Medida:</label>
+      <input type="text" id="medida-agregar" class="input-text" autocomplete required>
+      <br>
+      <label for="stock-agregar">Stock:</label>
+      <input type="number" id="stock-agregar" class="input-text" required>
+      <br>
+      <label for="ubicacion-agregar">Ubicación:</label>
+      <input type="text" id="ubicacion-agregar" class="input-text" required>
+      <br>
+      <button onclick="agregarStock()" class="boton">Agregar</button>
+      <button onclick="cancelarAgregar()" class="boton">Cancelar</button>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

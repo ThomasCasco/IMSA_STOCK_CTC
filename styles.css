@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(218,41,28);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  background-color: #ffff;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.formulario {
+  margin-bottom: 20px;
+}
+
+.boton {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-text {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.tipos-disponibles {
+  margin-top: 20px;
+}
+
+.stock-container {
+  margin-top: 20px;
+}
+
+.stock-color {
+  margin-top: 5px;
+}
+
+.stock-indicador {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  opacity: 0.3;
+  margin-right: 2px;
+}
+
+.stock-verde {
+  background-color: green;
+}
+
+.stock-amarillo {
+  background-color: yellow;
+}
+
+.stock-rojo {
+  background-color: red;
+}
+
+.stock-indicador.active {
+  opacity: 1;
+}
+
+
+
+.formulario-agregar {
+  margin-top: 20px;
+}
+
+
+
+
