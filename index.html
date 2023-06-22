@@ -28,7 +28,19 @@
       <button onclick="consumirPapel()" class="boton">Consumir</button>
     </div>
   
-    <div id="stock" class="stock-container"></div>
+    <div id="stock" class="stock-container">
+      <form id="filtro-form">
+      <label for="filtro-select">Filtrar por color:</label>
+      <select id="filtro-select">
+        <option value="todos">Todos</option>
+        <option value="verde">Verde</option>
+        <option value="amarillo">Amarillo</option>
+        <option value="rojo">Rojo</option>
+      </select>
+      <button type="submit">Filtrar</button>
+</form>
+
+    </div>
   
     <h2 class="titulo">Añadir stock</h2>
   
