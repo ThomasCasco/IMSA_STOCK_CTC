@@ -1,5 +1,8 @@
 # IMSA_STOCK_CTC
 
+# IMSA_STOCK_CTC - Live: view
+- link: https://imsa-stock-ctc.vercel.app/
+
 # Inventario de Papel
 
 Este es un proyecto de inventario de papel desarrollado para gestionar el stock y consumo de diferentes tipos de papel en una empresa. Permite realizar las siguientes acciones:
@@ -11,7 +14,10 @@ Este es un proyecto de inventario de papel desarrollado para gestionar el stock 
 
 ## Capturas de pantalla
 
-prox.
+![2](https://github.com/ThomasCasco/IMSA_STOCK_CTC/assets/79951563/e3eadd3c-f27a-4297-9653-ac9879bea347)
+
+
+![3](https://github.com/ThomasCasco/IMSA_STOCK_CTC/assets/79951563/739dd753-b313-4614-ae85-96954eabd789)
 
 ## Características
 
